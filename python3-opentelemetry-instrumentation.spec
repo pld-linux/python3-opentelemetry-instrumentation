@@ -3,7 +3,7 @@
 %bcond_without	tests	# unit tests
 
 Summary:	Instrumentation Tools & Auto Instrumentation for OpenTelemetry Python
-Summary(pl.UTF-8):	Narędzia do instrumentacji i automatyczna instrumentacja dla OpenTelemetry dla Pythona
+Summary(pl.UTF-8):	Narzędzia pomiarowe i automatyczne pomiary dla OpenTelemetry dla Pythona
 Name:		python3-opentelemetry-instrumentation
 %define	subver	b0
 %define	rel	1
@@ -41,7 +41,7 @@ program.
 
 %description -l pl.UTF-8
 Ten pakiet udostępnia polecenia pomagające przy automatycznym
-instrumentowaniu programów.
+opomiarowaniu programów.
 
 %prep
 %setup -q -n opentelemetry_instrumentation-%{version}%{subver}
